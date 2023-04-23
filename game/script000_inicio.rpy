@@ -400,7 +400,7 @@ label inicio_verdad_del_club:
     pla "Así que eso de que había llegado tu hora..."
     pla "Fue porque me confundiste con alguien del comité estudiantil, ¿verdad?"
     show alice normal
-    ali "Si, es una deducción correcta, tienes talento para ser un buen detective. Je, je, je..."
+    ali "Sí, es una deducción correcta, tienes talento para ser un buen detective. Je, je, je..."
     show alice sorprendida
     pla "¡Espera, no me cambies el tema!" with hpunch
     pla "Si no me equivoco, los clubes tienen ciertos requisitos para cumplir..."
@@ -560,7 +560,7 @@ label inicio_fin_del_dia:
     pla "¿Qué? ¿Acaso hay alguien más?"
     show alice sonriendo
     ali "Sí. Todavía no te he presentado a {amarillo}Sherinford.{/amarillo}"
-    pla "¿Sherinford? Qué nombre tan raro... ¿Y en donde está? Me gustaría conocerlo..."
+    pla "¿Sherinford? Qué nombre tan raro... ¿Y en dónde está? Me gustaría conocerlo..."
     show alice alegre
     ali "¡Claro!"
     ali "¡Sherinford! ¡Ven aquí pequeñín!"
@@ -578,7 +578,7 @@ label inicio_fin_del_dia:
     pla "Hola, mucho gus-{w=1}{nw}"
     pla "¿¡Sherinford es un pollo!?" with hpunch
     show alice normal
-    ali "¿Y qué mas va a hacer?"
+    ali "¿Y qué más va a ser?"
     pla "No... es que yo pensé que era una persona... ah, olvídalo..."
     "Seguimos siendo solo dos personas en este club..."
     show alice sonriendo
@@ -605,7 +605,7 @@ label inicio_fin_del_dia:
     show alice sonriendo
     ali "Y de repente, el huevo se quebró, ¡y Sherinford había nacido!"
     ali "Todos en el club nos encariñamos con él, así que nos lo quedamos."
-    ali "Además, el hecho de que Sherinford naciera, indicaba que había un gallo oculto en la escuela..."
+    ali "Además, el hecho de que Sherinford naciera, indicaba que había una gallina oculta en la escuela..."
     pla "Eh... qué caso tan curioso..."
     ali "Sí, ¿te sigo contando?"
     show alice normal
