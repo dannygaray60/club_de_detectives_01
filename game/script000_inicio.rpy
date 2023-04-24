@@ -50,9 +50,9 @@ label inicio:
     pause 0.5
     play music tema_principal fadein 3.0    
     $quick_menu=True
-    mary "... y así están las cosas. Con el nuevo director a cargo, algunas cosas serán diferentes a partir de este año..."
-    "Yo estaba en el salón de maestros, en el segundo día de clases."
-    "Y contrario a lo que uno podría pensar... No, no me he metido en problemas."
+    mary "...and that's the way it is. With the new director in charge, some things will be different starting this year..."
+    "I was in the teachers' lounge, on the second day of school."
+    "And contrary to what one might think... No, I haven't gotten into trouble."
     "Resulta que {amarillo}no pude asistir al primer día de clases{/amarillo} por haberme enfermado."
     "Por lo tanto, me perdí de la ceremonia de apertura y del aviso sobre los nuevos reglamentos que se implementarán en la escuela."
     "En frente de mí, estaba la {amarillo}profesora Mary Harrow.{/amarillo} Conocida como {i}\"La doncella de los números\"{/i}."
