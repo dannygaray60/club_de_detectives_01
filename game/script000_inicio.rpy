@@ -92,7 +92,7 @@ label inicio:
      show mary pensando
      mary "..."
      mary "Oh, well..."
-     normal mary show
+     show mary normal
      mary "Starting this year, the school will be more flexible regarding the use of the uniform."
      mary "In other words, {amarillo}it will not be mandatory to wear the uniform.{/amarillo} Although it is only allowed for first-timers."
      pla "I understand..."
@@ -111,8 +111,8 @@ label inicio:
      pla "So education shouldn't be fun?"
      show mary hablando
      mary "That's right, education is rather a {amarillo}commitment{/amarillo} of the student to himself to build a good future for himself."
-    show mary normal
-    mary "Studies should not be taken as a game."
+     show mary normal
+     mary "Studies should not be taken as a game."
      "It becomes apparent that Professor Harrow has a slightly {amarillo}old {/amarillo} thinking about education."
      "No wonder her math class was torture..."
      show mary pensando
@@ -268,7 +268,7 @@ label inicio:
      unk "Huh?"
      "The girl looked at me in surprise, as if she didn't understand my words."
      unk "What are you talking about?"
-     Pla "Huh?"
+     pla "Huh?"
      "What the hell..."
      show alice normal
      unk "..."
