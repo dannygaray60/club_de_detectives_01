@@ -50,107 +50,107 @@ label inicio:
     pause 0.5
     play music tema_principal fadein 3.0    
     $quick_menu=True
-    mary "... y así están las cosas. Con el nuevo director a cargo, algunas cosas serán diferentes a partir de este año..."
-    "Yo estaba en el salón de maestros, en el segundo día de clases."
-    "Y contrario a lo que uno podría pensar... No, no me he metido en problemas."
-    "Resulta que {amarillo}no pude asistir al primer día de clases{/amarillo} por haberme enfermado."
-    "Por lo tanto, me perdí de la ceremonia de apertura y del aviso sobre los nuevos reglamentos que se implementarán en la escuela."
-    "En frente de mí, estaba la {amarillo}profesora Mary Harrow.{/amarillo} Conocida como {i}\"La doncella de los números\"{/i}."
-    "Aunque yo más bien la llamaría {i}\"El infierno matemático hecho mujer\"{/i}."
-    "Vaya, qué original soy..."
-    show mary hablando
-    mary "¿Me estás escuchando?"
-    pla "¿E- eh? Ah, sí... fuerte y claro..." with hpunch
-    show mary normal
-    "¿¡De qué estaba hablando!?"
-    "Decidí parar con mi monólogo interno, para no enojar a la profesora Harrow."
-    "Nadie, absolutamente {amarillo}nadie desea verla enojada...{/amarillo}"
-    mary "Apenas ha comenzado el año escolar, y tú llegas tarde..."
-    "{i}*Corrección*{/i} Creo que sí estoy metido en un problema..."
-    pla "Ah... Bu- bueno... yo... este..."
-    "Mientras balbuceaba, buscando una justificación, la profesora continuó hablando."
-    show mary hablando
-    mary "Espero que esto no vaya a convertirse en un nuevo hábito tuyo."
-    show mary normal
-    pla "¡N- No! ¡Claro que no!"
-    pla "¡Le prometo que no volverá a pasar!"
-    mary "Ya estás en tu {amarillo}cuarto año de secundaria{/amarillo}, debes dar el ejemplo a los de años inferiores."
-    mary "Es una falta de respeto hacia la institución llegar a la escuela sin una justificación."
-    mary "Esto no debe repetirse, ¿entendido?"
-    pla "¡Sí, señora!"
-    mary "¿Perdón?"
-    pla "¡Ah! Digo... entendido, profesora Harrow..."
-    "Cuarto año..."
-    "Ya solo me falta este año y el próximo para terminar la secundaria."
-    "Claro, si logro tener notas que no bajen del promedio..."
-    pla "¿Y cuáles son esos nuevos reglamentos de los que me estaba hablando?"
-    "Comencé a cambiar de tema, antes de que la profesora también me reprochara las bajas calificaciones que obtuve el año pasado."
-    mary "¿Ah?"
-    mary "¿Ya lo olvidaste? Te lo acabo de explicar."
-    " \"Es que no le presté atención\". Obviamente no diré eso..."
-    pla "Sí, lo sé, pero quería asegurarme de que escuché claramente."
-    show mary pensando
-    mary "..."
-    mary "Ah, bien..."
-    show mary normal
-    mary "A partir de este año, la escuela será más flexible en cuanto al uso del uniforme."
-    mary "En otras palabras, {amarillo}no será obligatorio vestir el uniforme.{/amarillo} Aunque solo está permitido para los de primer ingreso."
-    pla "Entiendo..."
-    mary "Sin embargo, ahora {nw}"
-    play sound campana
-    extend "{amarillo}será obligatorio que los estudiantes pertenezcan a un club.{/amarillo}" with flashbulb
-    pla "¿¡Eh!?" with hpunch
-    pla "¿Que ahora será obligación pertencer a un club?"
-    pla "¿Por qué?"
-    show mary hablando
-    mary "El nuevo director, al parecer es alguien que viene con {amarillo}nuevas ideas{/amarillo} para implementar en la educación."
-    mary "Es una persona joven que, según sus palabras, busca hacer la educación algo \"más divertida\"."
-    mary "Sé que eso no debe ser así... Pero esas son las reglas ahora."
-    show mary normal
-    pla "Espere..."
-    pla "Entonces, ¿la educación no debe ser divertida?"
-    show mary hablando
-    mary "Así es, la educación es más bien un {amarillo}compromiso{/amarillo} del estudiante consigo mismo para forjarse un buen futuro."
-    show mary normal
-    mary "Los estudios no deben tomarse como un juego."
-    "Se hace evidente que la profesora Harrow tiene un pensamiento algo {amarillo}antiguo{/amarillo} respecto a la educación."
-    "No me extraña que sus clases de Matématicas fueran toda una tortura..."
-    show mary pensando
-    mary "Las actividades extraescolares solo pueden distraer al estudiante de sus verdaderos deberes..."
-    "¿Acaso no se habían creado clubes en esta escuela para motivar al estudiante a asistir a clases?"
-    "De repente recordé que una vez escuché, que desde la creación de distintos clubes, la asistencia escolar aumentó."
-    "Y no he visto que eso sea algún problema para el rendimiento académico."
-    "Solo mírenme, tengo notas regulares y no pertenezco a un club..."
-    "Espera..."
-    pla "Eso será un problema..."
-    show mary normal
-    mary "¿Uhm?"
-    pla "Yo no estoy metido en un club..."
-    "Y tampoco tengo el interés de unirme a uno."
-    mary "Todas las personas que no estén integradas a un club, tienen un plazo de {amarillo}dos meses{/amarillo} para hacerlo."
-    pla "¿Y si no me meto a un club?"
-    mary "Eso significa quebrantar el reglamento, y ya debes saber cuales son las consecuencias."
-    pla "Ah... entiendo..."
-    "No me queda de otra..."
-    extend " al final tendré que meterme a un club."
-    show mary pensando
-    mary "Bien, más o menos eso era lo que necesitabas saber."
-    show mary normal
-    mary "Tú quedaste en la sección {nw}"
-    play sound campana
-    extend "{amarillo}\"4-A\"{/amarillo}." with flashbulb
-    mary "Ya te puedes ir. Las clases comenzarán dentro de media hora."
-    pla "Está bien."
-    "Me acomodé la mochila al hombro antes de irme, algo desanimado por esa nueva regla de pertenecer a un club..."
-    show mary hablando
-    mary "Ah, por cierto, {nw}"
-    play sound campana
-    extend "{amarillo}yo estaré a cargo de la sección 4-A{/amarillo}." with flashbulb
-    pla "¿¡Eeeehhh!?" with hpunch
-    "Lo que faltaba..."
-    "La maestra más estricta de toda la escuela, la profesora Harrow, será la tutora de mi sección..."
-    "Ya lo veo venir..."
-    "Los estudios se volverán un verdadero infierno..."
+    mary "...and that's the way it is. With the new director in charge, some things will be different starting this year..."
+    "I was in the teachers' lounge, on the second day of school."
+    "And contrary to what one might think... No, I haven't gotten into trouble."
+   "It turns out that {amarillo} I couldn't attend the first day of school{/amarillo} because I got sick."
+     "Therefore, I missed the opening ceremony and the announcement about the new regulations that will be implemented at the school."
+     "In front of me was {amarillo}Professor Mary Harrow.{/amarillo} Known as {i}\"The Maiden of Numbers\"{/i}."
+     "Although I would rather call her {i}\"Mathematical hell turned into a woman\"{/i}."
+     "How original I am..."
+     show mary hablando
+     mary "Are you listening to me?"
+     pla "hu- huh? Ah, yes...loud and clear..." with hpunch
+     show mary normal
+     "What was she talking about!?"
+     "I decided to stop with my internal monologue, so as not to anger Professor Harrow."
+     "Nobody, absolutely {amarillo}nobody wants to see her angry...{/amarillo}"
+     mary "The school year has barely started, and you're late..."
+     "{i}*Corrección*{/i} I think I am in trouble..."
+     pla "Ah... We-well... I... um..."
+     "While I stammered, looking for a justification, the teacher continued speaking."
+     show mary hablando
+     mary "I hope this isn't going to become a new habit of yours."
+     show mary normal	
+     pla "N-No! Of course not!"
+     pla "I promise it won't happen again!"
+     mary "You are already in your {amarillo}fourth year of high school{/amarillo}, you must set an example for the lower years."
+     mary "It is disrespectful towards the institution to come school without justification."
+     mary "This is not to be repeated, understand?"
+     pla "Yes, ma'am!"
+     mary "Excuse me?"
+     pla "Ah! I mean...understood, Professor Harrow..."
+     "Fourth year..."
+     "I only have this year and the next to finish high school."
+     "Sure, if I manage to get grades that don't drop below average..."
+     pla "And what are those new regulations you were talking about?"
+     "I started to change the subject, before the teacher also scolded me for the low grades I got last year."
+     mary "Huh?"
+     mary "Have you already forgotten? I just explained it to you."
+     " \"I just didn't pay attention to it\". Obviously I won't say that..."
+     pla "Yes, I know, but I wanted to make sure I heard clearly."
+     show mary pensando
+     mary "..."
+     mary "Oh, well..."
+     show mary normal
+     mary "Starting this year, the school will be more flexible regarding the use of the uniform."
+     mary "In other words, {amarillo}it will not be mandatory to wear the uniform.{/amarillo} Although it is only allowed for first-timers."
+     pla "I understand..."
+     mary "However, now {nw}"
+     play sound campana
+     extend "{amarillo}it will be obligatory for students to belong to a club.{/amarillo}" with flashbulb
+     pla "Huh!?" with hpunch
+     pla "That now it will be an obligation to belong to a club?"
+     pla "why?"
+     show mary hablando
+     mary "The new principal, apparently is someone who comes up with {amarillo}new ideas{/amarillo} to implement in education."
+     mary "He is a young person who, according to his words, seeks to make education something \"more fun\"."
+     mary "I know it's not supposed to be like that... But those are the rules now."
+     show mary normal
+     pla "Wait..."
+     pla "So education shouldn't be fun?"
+     show mary hablando
+     mary "That's right, education is rather a {amarillo}commitment{/amarillo} of the student to himself to build a good future for himself."
+     show mary normal
+     mary "Studies should not be taken as a game."
+     "It becomes apparent that Professor Harrow has a slightly {amarillo}old {/amarillo} thinking about education."
+     "No wonder her math class was torture..."
+     show mary pensando
+     mary "Extracurricular activities can only distract students from their true duties..."
+     "Haven't clubs been created in this school to motivate the student to attend classes?"
+     "Suddenly I remembered that I once heard that since the creation of different clubs, the school attendance increased."
+     "And I haven't seen that that's a problem for academic performance."
+     "Just look at me, I have fair grades and I don't belong to a club..."
+     "Wait..."
+     pla "That will be a problem..."
+     show mary normal
+     mary "Uhm?"
+     pla "I'm not involved in a club..."
+     "And I don't have the interest to join one either."
+     mary "All people who are not members of a club have {amarillo}two months{/amarillo} to do so."
+     pla "And if I don't join a club?"
+     mary "That means breaking the rules, and you should already know what the consequences are."
+     pla "Ah... I understand..."
+     "I have no choice..."
+     extend "In the end, I'll have to join a club."
+     show mary pensando
+     mary "Well, that's more or less what you needed to know."
+     show mary normal
+     mary "You stayed in section {nw}"
+     play sound campana
+     extend "{amarillo}\"4-A\"{/amarillo}." with flashbulb
+     mary "You can go now. Classes will start in half an hour."
+     pla "Okay."
+     "I settled my backpack on my shoulder before leaving, somewhat discouraged by this new rule of belonging to a club..."
+     show mary hablando
+     mary "Oh, by the way, {nw}"
+     play sound campana
+     extend "{amarillo}I'll be in charge of section 4-A{/amarillo}." with flashbulb
+     pla "Eeeehhh!?" with hpunch
+     "What was missing..."
+     "The firmest teacher in the entire school, Professor Harrow, will be the tutor of my section..."
+     "I see it coming..."
+     "Studies will become a real hell..."
     stop music fadeout 5.0
     hide screen quick_menu
     $quick_menu=False
@@ -161,181 +161,180 @@ label inicio:
     $ hora=14
     $ fecha="Febrero 14"
     $quick_menu=True
-    window show
-    "{amarillo}- Algunos días después... -{/amarillo}"
-    window show
-    scene bg escuela corredor with dissolve
-    pause 1
-    "Al llegar el día viernes, es cuando de verdad empiezo a preocuparme por buscar un club."
-    "En este momento son las dos en punto, que es cuando terminan las clases."
-    "Por lo tanto, aprovecharé este tiempo libre para ir a visitar algunos clubes, y ver si alguno me llama la atención."
-    scene bg negro
+     window show
+     "{amarillo}- A few days later... -{/amarillo}"
+     window show
+     scene bg escuela corredor with dissolve
+     pause 1
+     "When Friday arrives, that's when I really start to worry about looking for a club."
+     "Right now it's two o'clock, which is when classes end."
+     "Therefore, I'll take advantage of this free time to go visit some clubs, and see if any catch my eye."
+     scene bg negro
     show sepia
     show bg salon clases club dia behind sepia 
     play sound flash
     show claire timida behind sepia with flashbulb
-    pause 1
-    "Primero fui al club de literatura."
-    "En ese lugar noté que sus miembros son muy callados, o más bien... ¿algo tímidos?"
-    "{amarillo}La presidenta del club{/amarillo}, Claire Bellamy, me explicó las actividades que realizaban..."
-    "Y a decir verdad, se me hicieron algo aburridas..."
+     pause 1
+     "First I went to the literature club."
+     "In that place I noticed that its members are very quiet, or rather... a bit shy?"
+     "{amarillo}The president of the club{/amarillo}, Claire Bellamy, explained to me the activities they were doing..."
+     "And to tell the truth, I found them somewhat boring..."
     scene bg negro
     show sepia
     show bg salon cocina dia behind sepia 
     play sound flash
     show marissa alegre hablando behind sepia with flashbulb
-    pause 1
-    "En el club de cocina, las cosas fueron diferentes."
-    "Había un ambiente más ameno en ese club."
-    "La mayoría de los integrantes en ese club eran mujeres."
-    "Una de ellas, {amarillo}Marissa Morstan{/amarillo}, me comentó alegremente de las actividades en el club."
-    "Al mismo tiempo que la escuchaba, yo disfutaba comiendo algunos pastelillos que me ofrecieron, como una muestra de sus talentos."
-    "Eran realmente deliciosos."
-    "Al salir del salón, me fui con una buena impresión de ese club, aunque..."
-    "Todavía seguía sin convencerme..."
+     pause 1
+     "At the cooking club, things were different."
+     "There was a more pleasant atmosphere in that club."
+     "Most of the members in that club were women."
+     "One of them, {amarillo}Marissa Morstan{/amarillo }, happily told me about the activities at the club."
+     "At the same time that I listened to her, I enjoyed eating some cakes that they offered me as an example of their talents."
+     "They were really delicious."
+     "When I left the room, I left with a good impression of that club, although..."
+     "I was still not convinced..."
     scene bg negro
     show sepia
     show bg salon musica dia behind sepia 
     play sound flash
-    show jane normal behind sepia with flashbulb
-    pause 1
-    "En el club de música, las cosas estuvieron algo ruidosas."
-    "Sus integrantes eran muy conversadores y algo excéntricos, a exepción de una chica."
-    "Se presentó como {amarillo}Jane Stoner{/amarillo}."
-    "Y solamente dijo su nombre..."
-    "A todas mis preguntas, ella me daba una respuesta de una sola palabra."
-    "Y si era posible, me contestaba con algun gesto de cabeza."
-    "Además, su mirada y tono de voz me hacía creer que todo le era ajeno a ella."
-    "De todas formas, de lo poco que tiene de habilidad en comunicarse, le sobra en habilidad para la guitarra."
-    "En fin, era un club alegre y ruidoso, aunque sus gustos musicales no iban acorde a los míos..."
-    scene bg negro with dissolve
-    "Estuve vagando por el edificio de clubes..."
-    "Pero al final, seguía indeciso..."
-    "Todos los clubes tienen sus cosas buenas y malas..."
-    scene bg escuela corredor clubes tarde with dissolve
-    play music ambiente fadein 6
-    "Y con eso, ya he visitado todos los clubes que hay en la escuela..."
-    "O eso era lo que creía."
-    "Luego de haber dado un vistazo general al corredor del edificio donde están los clubes..."
-    "Me di cuenta de que hay todavía un salón al que no he ido."
-    "Es el último salón del corredor en donde me encuentro, y además la puerta está cerrada."
-    pla "Tal vez sea un almacén..." 
-    "Ese fue mi razonamiento, ya que en el otro edificio de la escuela, en donde están los salones de clase, también hay un almacén al final del corredor."
-    pla "Bueno, parece que no tengo nada más que hacer aquí por hoy..."
-    show alice normal with dissolve:
-        center
-        linear 3 right
-    pause 0.5
-    hide alice with dissolve
-    # "De repente, escuché el sonido de una puerta cerrándose."
-    pla "¿Uh?"
-    "De reojo vi que una persona había entrado al mismo salón que consideré un almacén."
-    pla "..."
-    extend " ..."
-    extend " ..."
-    "Motivado por la curiosidad, caminé con pasos indecisos hacia el mismo salón."
-    pla "La puerta está abierta..."
-    play sound flash
-    stop music fadeout 1
-    scene bg salon club detectives with flashbulb:
-        # pause 1
-        xpan -60
-        linear 8 xpan 60
-    pause 3
-    "Wow..."
-    "Poco a poco, me fui adentrando en el salón."
-    "Me quedé perplejo al ver la cantidad de cosas que hay aquí."
-    "Vi una serie de curiosos objetos encima de una repisa."
-    "Había algunas estatuas, también una peluca... y otros artefactos que parecían antiguedades."
-    "También noté que en una pared se encontraban colgadas algunas vestimentas."
-    "En una pequeña mesa se encuentra... ¿un detector de mentiras? Se miraba idéntico al de las películas."
-    "También hay otras baratijas y pila de papeles, además de libros viejos."
-    "En fin, había tantas cosas en ese lugar, que de verdad parecía un almacén."
-    show alice sorprendida with dissolve
-    pause 1.5
-    unk "¿¡Eh!?" with hpunch
-    pla "H- hola..."
-    unk "Eh... este... ¿Ya ha llegado mi hora, verdad?"
-    pla "..."
-    play music ambiente3 fadein 4
-    extend " ¿Disculpa?"
-    show alice pensando at decaer
-    unk "Uh... por lo menos deje que me despida de este salón..."
-    unk "Hay tantos recuerdos aquí..."
-    unk "Se me hace doloroso separarme de este lugar..."
-    show alice sorprendida at reponerse
-    pla "¡Oye! ¿¡De qué rayos estás hablando!?" with hpunch
-    pla "No soy la muerte que ha venido por tu alma."
-    unk "¿Uh?"
-    "La chica me miró sorprendida, como si no entendiera mis palabras."
-    unk "¿De qué estás hablando?"
-    pla "¿Eh?"
-    "Pero qué rayos..."
-    show alice normal
-    unk "..."
-    unk "Espera, ¿acaso no eres del {amarillo}comité estudiantil{/amarillo}?"
-    pla "Ehm... no."
-    show alice pensando at decaer
-    unk "Ah... menos mal..."
-    "La chica entonces dejó ir un suspiro de alivio, a la vez que se sentaba en un taburete, como si su vida estaba en peligro hace poco."
-    pla "Este... disculpa, me he equivocado del salón, no era mi intención venir a molestar."
-    "Decido retirarme. Este lugar es raro."
-    show alice sorprendida at reponerse_rapido
-    unk "¡E- espera!" with hpunch
-    "De repente, la chica se levantó, y al mismo tiempo se posicionó enfrente de la salida."
-    "Tengo un mal presentimiento..."
-    pla "¿Q- qué quieres?"
-    show alice sonriendo
-    unk "Si tú no eres del comité estudiantil..."
-    show alice alegre
-    unk "¿¡Entonces eres un cliente, verdad!?" with hpunch
-    pla "¿Qué?"
-    show alice at brinquitos
-    unk "¡Bienvenido al {amarillo}club de detectives{/amarillo}!"
-    show alice sonriendo
-    pla "¿Club... de detectives?"
-    pla "Entonces, ¿este lugar no era un almacén?"
-    show alice enojada
-    unk "¡Claro que no!" with hpunch
-    pla "Ya... ya veo..."
-    pla "Pues, mira... ehm..."
-    "Interrumpí mi frase al desconocer su nombre."
-    show alice sonriendo
-    unk "Ah, qué modales los míos. ¡Soy {amarillo}Alice Baskerville{/amarillo}! ¡Mucho gusto!"
-    "¿Baskerville?"
-    "¿Será acaso de una familia rica?"
-    show alice normal
-    pla "Ah, bien. Alice, creo que te estás confundiendo, no soy ningún cliente."
-    pla "Solo pasé por casualidad y me llamó la atención este salón..."
-    show alice alegre at brinquitos
-    ali "¡Ah! ¿¡Así que vienes a unirte al club!?"
-    "Sin dejarme terminar de hablar, Alice siguió soltando conclusiones erronéas."
-    show alice sonriendo
-    ali "Espera un momento, ya traeré un formulario de inscripción."
-    show alice sorprendida
-    pla "¡Oye! ¡Tampoco vengo a eso!" with hpunch
-    pla "Solo vine por pura curiosidad, y..."
-    show alice sonriendo
-    ali "¡Qué bien! ¡Ser curioso es una cualidad importante para un buen detective!"
-    show alice sorprendida
-    pla "¡Y dejar hablar a las personas es una cualidad aun más importante!" with vpunch
-    pla "¡Deja de interrumpirme!"
-    pla "Solo estaba viendo, y parece que ya he visto suficiente. Así que adiós..."
-    "A pesar de haber dicho eso, tenía a Alice bloqueándome la salida."
-    show alice normal
-    ali "Uh..."
-    ali "¡Te pierdes de una gran oportunidad! ¿Acaso ya estás en otro club?"
-    pla "Pues no, pero..."
-    show alice sonriendo
-    ali "¡Entonces no hay problema!"
-    show alice alegre
-    ali "¡El club de detectives te da la bienvenida!"
-    pla "Uh... debí haber mentido..."
-    show alice pensando
-    ali "¿Acaso no estás interesado en unirte?"
-    pla "..."
-    extend " Bueno, yo..."
-    menu:
+    show jane normal behind sepia with flashbulb   pause 1
+     "In the music club, things were a bit noisy."
+     "Its members were very talkative and somewhat eccentric, with the exception of one girl."
+     "She introduced herself as {amarillo} Jane Stoner {/amarillo}."
+     "And she only said her name..."
+     "To all my questions, she gave me a one-word answer."
+     "And if it was possible, she would answer me with a head nod."
+     "Besides, her look and her tone of voice made me believe that everything was alien to her."
+     "Anyway, for what little communication skills she has, she has guitar skills to spare."
+     "In short, it was a lively and noisy club, although their musical tastes were not according to mine..."
+     scene bg negro with dissolve
+     "I was wandering around the club building..."
+     “But in the end, I was still unsure…”
+     "All clubs have their good and bad things..."
+     scene bg escuela corredor clubes tarde with dissolve
+     play music ambiente fadein 6
+     "And with that, I've already visited all the clubs in the school..."
+     "Or so I thought."
+     "After taking a general look at the corridor of the building where the clubs are..."
+     "I realized there's still a salon I haven't been to."
+     "It is the last room in the corridor where I am, and also the door is closed."
+     pla "Maybe it's a warehouse..."
+     "That was my reasoning, since in the other building of the school, where the classrooms are, there is also a store at the end of the corridor."
+     pla "Well, it looks like I don't have anything else to do here today..."
+     show alice normal with dissolve:
+         center
+         linear 3 right
+     pause 0.5
+     hide alice with dissolve
+     # "Suddenly, I heard the sound of a door closing."
+     Pla "Huh?"
+     "Out of the corner of my eye I saw that a person had entered the same room that I considered a warehouse."
+     pla "..."
+     extend "..."
+     extend "..."
+     "Motivated by curiosity, I walked with hesitant steps towards the same room."
+     pla "The door is open..."
+     play sound flash
+     stop music fadeout 1
+     scene bg salon club detectives with flashbulb:
+         # pause 1
+         xpan -60
+         linear 8 xpan 60
+     pause 3
+     "Wow..."
+     "Little by little, I went deeper into the room."
+     "I was shocked to see how many things are here."
+     "I saw a series of curious objects on top of a ledge."
+     "There were some statues, also a wig... and other artifacts that looked like antiques."
+     "I also noticed that some clothes were hanging on a wall."
+     "On a small table is...a lie detector? It looked just like the one in the movies."
+     "There are also other trinkets and a pile of papers, as well as old books."
+     "Anyway, there were so many things in that place; it really looked like a warehouse."
+     show alice sorprendida with dissolve
+     pause 1.5
+     unk "Huh?" with hpunch
+     pla "H-hello..."
+     unk "Uh... er... my time is up, right?"
+     pla "..."
+     play music ambiente3 fadein 4
+     extend " Excuse me?"
+     show alice pensando at decaer
+     unk "Uh... at least let me say goodbye to this room..."
+     unk "There are so many memories here..."
+     unk "It's painful for me to be separated from this place..."
+     show alice sorprendida at reponerse
+     pla "Hey! What the hell are you talking about!?" with hpunch
+     pla "I am not the death that has come for your soul."
+     unk "Huh?"
+     "The girl looked at me in surprise, as if she didn't understand my words."
+     unk "What are you talking about?"
+     pla "Huh?"
+     "What the hell..."
+     show alice normal
+     unk "..."
+     unk "Wait, aren't you from the {amarillo}student committee{/amarillo}?"
+     pla "Um... no."
+     show alice pensando at decaer
+     unk "Ah... thank goodness..."
+     "The girl then let out a sigh of relief, as she sat on a stool, as if her life was in danger recently."
+     pla "Er... excuse me, I made the wrong room, I didn't mean to come here to bother you."
+     "I decide to retire. This place is weird."
+     show alice sorprendida at reponerse_rapido
+     unk "W-wait!" with hpunch
+     "Suddenly, the girl stood up, and at the same time she positioned herself in front of the exit."
+     "I have a bad feeling..."
+     pla "W-what do you want?"
+     show alice sonriendo
+     unk "If you're not from the student council..."
+     show alice alegre
+     unk "Then you're a customer right!?" with hpunch
+     pla "What?"
+     show alice at brinquitos
+     unk "Welcome to the {amarillo}detective club{/amarillo}!"
+     show alice sonriendo
+     pla "Detective... club?"
+     pla "So this place wasn't a warehouse?"
+     show alice enojada	
+     unk "Of course not!" with hpunch
+     pla "I... I see..."
+     pla "Well, look... erm..."
+     "I interrupted my sentence by not knowing her name."
+     show alice sonriendo
+     unk "Ah, my manners. I'm {amarillo}Alice Baskerville{/amarillo}! Nice to meet you!"
+     "Baskerville?"
+     "Could he be from a rich family?"
+     show alice normal
+     pla "Ah, good. Alice, I think you're getting it wrong, I'm not a customer."
+     pla "I just passed by chance and this room caught my attention..."
+     show alice alegre at brinquitos
+     ali "Ah! So you're here to join the club!?"
+     "Without letting me finish speaking, Alice continued to jump to the wrong conclusions."
+     show alice sonriendo
+     ali "Wait a minute, I'll bring a registration form."
+     show alice sorprendida
+     pla "Hey! I'm not here for that either!" with hpunch
+     pla "I just came out of pure curiosity, and..."
+     show alice sonriendo
+     ali "Great! Being curious is an important quality for a good detective!"
+     show alice sorprendida
+     pla "¡Y dejar hablar a las personas es una cualidad aun más importante!" with vpunch
+     pla "¡Deja de interrumpirme!"
+     pla "Solo estaba viendo, y parece que ya he visto suficiente. Así que adiós..."
+     "A pesar de haber dicho eso, tenía a Alice bloqueándome la salida."
+     show alice normal
+     ali "Uh..."
+     ali "¡Te pierdes de una gran oportunidad! ¿Acaso ya estás en otro club?"
+     pla "Pues no, pero..."
+     show alice sonriendo
+     ali "¡Entonces no hay problema!"
+     show alice alegre
+     ali "¡El club de detectives te da la bienvenida!"
+     pla "Uh... debí haber mentido..."
+     show alice pensando
+     ali "¿Acaso no estás interesado en unirte?"
+     pla "..."
+     extend " Bueno, yo..."
+     menu:
         "Que me cuente más del club":
             $ eleccion_1=1
             $ updateStat("carisma","+",1)
